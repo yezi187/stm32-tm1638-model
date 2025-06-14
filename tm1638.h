@@ -10,4 +10,8 @@ void TM1638_Write(uint8_t num);
 void TM1638_LED(uint8_t i,uint8_t data);
 void TM1638_LEDdata(uint8_t i,uint8_t data);
 void TM1638_SLED(uint8_t i,uint8_t st);
+void TM1638_AllSLED(uint8_t i);
+uint16_t TM1638_Read(void);
+void TM1638_AllLED(uint8_t i);
+void TM1638_WriteCOM(uint8_t i);
 #endif
